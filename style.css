@@ -1,14 +1,93 @@
-h1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 2em;   
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
 }
-.dark-mode{
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+
+.form-box {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    margin: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.assignment-box {
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+/* Dark Mode */
+.dark-mode {
     background-color: rgb(65, 58, 58);
     color: white;
 }
-.dark-mode .container {
-    background-color: rgb(65, 58, 58);
 
+.dark-mode .container {
+    background-color: rgb(45, 45, 45);
 }
 
+.dark-mode h1 {
+    color: white;
+}
+
+.dark-mode li,
+.dark-mode .assignment-box {
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.dark-mode a {
+    color: lightblue;
+}

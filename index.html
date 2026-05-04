@@ -1,27 +1,32 @@
 <html>
-    <button onClick ="toggleDarkMode()">Dark Mode</button>
 <head>
     <title>Homework Planner</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class = "container">
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+
+    <div class="container">
         <h1>Homework Planner</h1>
         <p>Use this planner to keep track of your homework assignments and due dates.</p>
 
-        <div class = "form-box">
+        <a href="calendar.html">Go to Assignment Calendar</a>
+
+        <div class="form-box">
             <form id="task-form">
-                <input type="text" id="task-input" placeholder="Enter a new task..." required>
+                <input type="text" id="task-input" placeholder="Enter homework assignment..." required>
                 <input type="date" id="due-date" required>
                 <button type="submit">Add Task</button>
             </form>
         </div>
-    </div>
-    <div class = "task-list">
-        <h2>Task List</h2>
-        <ul id="tasks"></ul>
+
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks"></ul>
+        </div>
     </div>
 
-<body> testing</body>
-<script src = "script.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
