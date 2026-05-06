@@ -117,13 +117,13 @@ li {
     top: 80px;
     left: 30px;
     transform: rotate(-20deg);
-    width : 200px;
+    width : 100px;
 }
 
 .pen {
     bottom: 50px;
     right: 40px;
     transform: rotate(25deg);
-    width: 300px;
+    width: 100px;
 }
 
