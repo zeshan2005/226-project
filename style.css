@@ -36,6 +36,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #ef4444;
+    transform: scale(1.05);
+}
+
 a {
     display: inline-block;
     margin: 15px;
@@ -91,3 +96,34 @@ li {
 .dark-mode a {
     color: lightblue;
 }
+.task-list {
+    background: repeating-linear-gradient(
+        white,
+        white 28px,
+        #cbd5e1 29px
+    );
+    padding: 20px;
+    border-left: 5px solid #ef4444;
+    border-radius: 10px;
+}
+.floating {
+    position: fixed;
+    width: 80px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.boy {
+    top: 80px;
+    left: 30px;
+    transform: rotate(-20deg);
+    width : 200px;
+}
+
+.pen {
+    bottom: 50px;
+    right: 40px;
+    transform: rotate(25deg);
+    width: 300px;
+}
+
